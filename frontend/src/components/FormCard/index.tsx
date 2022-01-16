@@ -19,7 +19,7 @@ function FormCard({ movieId } : Props) {
                 setMovie(response.data);
             });
 
-    }, []);
+    });
 
     return (
         <div className="dsmovie-form-container">
